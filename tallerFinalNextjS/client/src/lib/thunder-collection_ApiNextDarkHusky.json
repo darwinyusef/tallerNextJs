@@ -1,0 +1,93 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ApiNextDarkHusky",
+    "dateExported": "2024-08-05T03:07:06.195Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fb7f61d8-5736-4599-899d-9fc662c3ec06",
+            "colId": "f45613f6-ad57-49b3-b97d-c52a3fff38cd",
+            "containerId": "",
+            "name": "getUSER",
+            "url": "localhost:3000/api/user",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-05T02:44:02.482Z",
+            "modified": "2024-08-05T02:44:17.373Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "82901fed-d0ce-4749-90c3-d3cb4d397dd0",
+            "colId": "f45613f6-ad57-49b3-b97d-c52a3fff38cd",
+            "containerId": "",
+            "name": "postUSER",
+            "url": "localhost:3000/api/user",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-05T02:44:30.635Z",
+            "modified": "2024-08-05T03:05:07.196Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"pepito2@gmail.com\",\n  \"username\": \"pepito2\",\n  \"password\": \"informationLearning2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "64e905c1-2d38-4dc5-ab24-ed471d20137b",
+            "colId": "f45613f6-ad57-49b3-b97d-c52a3fff38cd",
+            "containerId": "",
+            "name": "getOnlyUser",
+            "url": "",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-08-05T02:45:25.517Z",
+            "modified": "2024-08-05T02:45:25.517Z",
+            "headers": []
+        },
+        {
+            "_id": "e48a2440-b48a-4416-aa99-b5de6d4c6260",
+            "colId": "f45613f6-ad57-49b3-b97d-c52a3fff38cd",
+            "containerId": "",
+            "name": "patchUSER",
+            "url": "localhost:3000/api/user",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2024-08-05T02:56:47.913Z",
+            "modified": "2024-08-05T03:04:35.780Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"userId\": \"66b03ef93bb24bf7de07a910\",\n  \"newUsername\": \"pepitos\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9873f914-a712-4660-ba62-43a7f8973116",
+            "colId": "f45613f6-ad57-49b3-b97d-c52a3fff38cd",
+            "containerId": "",
+            "name": "deleteUSER",
+            "url": "localhost:3000/api/user?userId=66b041b94ebaf8378cfba0e0",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-08-05T03:05:20.123Z",
+            "modified": "2024-08-05T03:06:53.187Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "userId",
+                    "value": "66b041b94ebaf8378cfba0e0",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Exercise</title>
+    <!-- Include Tailwind CSS via CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-linen">
+    <!-- External stylesheet -->
+    <div class="external-stylesheet">This div uses an external stylesheet</div>
+
+    <!-- Internal stylesheet -->
+    <style>
+      .internal-stylesheet {
+        background-color: linen;
+      }
+
+      .elCustom {
+        background-image: url(https://picsum.photos/200/300);
+      }
+    </style>
+    <div class="internal-stylesheet mt-4">
+      This div uses an internal stylesheet
+    </div>
+
+    <!-- Inline styles -->
+    <h2 class="text-center mt-4">Centered text</h2>
+    <p class="text-blue-500 text-lg">Blue, 18-point text</p>
+
+    <!-- Add class -->
+    <div class="class1 class2 mt-4">This div has multiple classes</div>
+
+    <!-- Selector -->
+    <h1 class="mt-4">Selector Example</h1>
+    <div id="job-title" class="mt-2">Selector Example</div>
+    <div class="hero mt-2">Selector Example</div>
+    <div class="hero">
+      <p class="mt-2">Selector Example</p>
+    </div>
+
+    <!-- Text color -->
+    <p class="text-blue-600 mt-4">This text has a custom color</p>
+
+    <!-- Background -->
+    <div class="bg-blue-300 mt-4">This div has a blue background</div>
+
+    <!-- Font -->
+    <div class="page-title font-bold text-3xl font-courier mt-4">
+      This div has a bold Courier New font with a size of 30px
+    </div>
+
+    <div class="h-screen elCustom bg-center bg-no-repeat bg-cover w-96 h-60"></div>
+
+    <!-- Position -->
+    <div class="box relative top-10 left-10 mt-4">
+      This div is positioned relative to its normal position
+    </div>
+
+    <!-- Animation -->
+    <div class="animate-spin mt-4">This div has a spinning animation</div>
+
+    <!-- Comment -->
+    <div class="mt-4">
+      <!-- This is a single line comment -->
+      <!--
+            This is a
+            multi-line comment
+        -->
+      This div has comments
+    </div>
+  </body>
+</html>
